@@ -1,3 +1,7 @@
+# Added to gitignore
+.DS_Store
+node_modules
+
 # Logs
 logs
 *.log
