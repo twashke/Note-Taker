@@ -1,16 +1,18 @@
 // Declare dependcies
 const path = require("path");
-const express = require("express");
-const router = express.Router();
 
-// Get request for notes page
-router.get("/notes", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/notes.html"));
-});
+module.exports = app => {
 
-// Get request default for home page
-router.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/index.html"));
-});
+    // Get request for notes page
+    app.get("/notes", (req, res) => {
+        res.sendFile(path.join(__dirname, "../public/notes.html"));
+    });
 
-module.exports = router;
+    // Get request default for home page
+    app.get("*", (req, res) => {
+        res.sendFile(path.join(__dirname, "../public/index.html"));
+    });
+
+};
+
+
