@@ -19,7 +19,7 @@ A Note Taker application that allows the user to view existing notes, add new no
 ## About the Project
 
 - Created to allow the user to add, view and delete existing notes.
-- The Note Take application is deplopyed using [Heroku]((https://dry-ocean-87387.herokuapp.com/)).
+- The Note Take application is deplopyed using [Heroku](https://dry-ocean-87387.herokuapp.com/).
 - This application utilizes the following npm packages: \
       - [fs](https://www.npmjs.com/package/fs) \
       - [path](https://www.npmjs.com/package/path) \
